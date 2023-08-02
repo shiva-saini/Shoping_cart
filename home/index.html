@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">MeShop</div>
+          <div class="right">
+            <div class="nav-item"><button id="home">Home</button></div>
+            <div class="nav-item"><button id="login">Login</button></div>
+            <div class="nav-item"><button id="signup">Signup</button></div>
+            <div class="nav-item"><button id="mycart">My Cart</button></div>
+            <div class="nav-item"><button id="profile">Profile</button></div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="colors">
+              <h3>Colors</h3>
+              <section id="color-section">
+                <div class="color">
+                  <input type="checkbox" value="Red" /> <label for="">Red</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="Blue" /> <label for="">Blue</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="Green" />
+                  <label for="">Green</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="Black" />
+                  <label for="">Black</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="White" />
+                  <label for="">White</label>
+                </div>
+              </section>
+            </div>
+    
+            <div class="sizes">
+              <h3>Sizes</h3>
+              <section id="size-section">
+                <div class="color">
+                  <input type="checkbox" value="s" /> <label for="">S</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="m" /> <label for="">M</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="l" /> <label for="">L</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="xl" /> <label for="">XL</label>
+                </div>
+              </section>
+            </div>
+    
+            <div class="rating">
+              <h3>Rating</h3>
+              <input id="range-input" type="range" value="" min="0.0" max="5.0" />
+              <div class="range">
+                <div class="zero">0</div>
+                <div class="five">5</div>
+              </div>
+            </div>
+    
+            <div class="price-range">
+              <h3>Price Range</h3>
+              <section id="price-range-section">
+                <div class="color">
+                  <input type="checkbox" value="0-100" />
+                  <label for="">$0 to $100</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="100-200" />
+                  <label for="">$100 to $200</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="250-500" />
+                  <label for="">$250 to $500</label>
+                </div>
+                <div class="color">
+                  <input type="checkbox" value="600-1000" />
+                  <label for="">$600 onward</label>
+                </div>
+              </section>
+            </div>
+    
+            <div class="filter">
+              <button id="filterbtn">Filter</button>
+            </div>
+        </div> 
+        <div class="menu-items">
+            <div class="menu-search">
+                <input type="text" value="" placeholder="Search" />
+            </div>
+            <div class="btns">
+              <button id="btn-all" class="btns-btn">All</button>
+              <button id="btn-men" class="btns-btn">Men</button>
+              <button id="btn-women" class="btns-btn">Women</button>
+              <button id="btn-electronics" class="btns-btn">Electronics</button>
+              <button id="btn-jewelery" class="btns-btn">Jewelery</button>
+            </div>
+    
+            <div id="men-heading" class="heading">
+                <h2>Men's Clothes</h2>
+            </div>
+            <div id="mens" class="items">
+            </div>
+           
+            
+            <div id="women-heading" class="heading">
+                <h2>women's Clothes</h2>
+            </div>
+            <div id="womens" class="items">
+            </div> 
+            
+    
+            <div id="jewelery-heading" class="heading">
+                <h2>Jewelery</h2>
+            </div>
+            <div id="jewelery" class="items">
+            </div>  
+    
+            <div id="electronics-heading" class="heading">
+                <h2>Electronics Clothes</h2>
+            </div>
+            <div id="electronics" class="items">
+            </div>
+    
+        </div>
+    </main>
+    
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>

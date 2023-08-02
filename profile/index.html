@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">MeShop</div>
+          <div class="right">
+            <div class="nav-item"><button id="home">Home</button></div>
+            <div class="nav-item"><button id="login">Login</button></div>
+            <div class="nav-item"><button id="signup">Signup</button></div>
+            <div class="nav-item"><button id="mycart">My Cart</button></div>
+            <div class="nav-item"><button id="profile">Profile</button></div>
+          </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <h2>Signup Successfull</h2>
+            <form class="signup">
+              
+                <div class="item">
+                    <label for="">First Name: </label> <span id="fname"></span>
+                </div>
+
+                <div class="item">
+                    <label for="">Last Name : </label> <span id="lname"></span>
+                </div>
+                
+                
+                <div class="item">
+                    <label for="">Your Email : </label> <span id="email"></span>
+                    
+                </div>
+                
+                <div class="item">
+                    <label for="">Password : </label> <span id="password"></span>
+                    
+                </div>
+                
+                
+                <div class="item">
+                    <label for=""> Your Token : </label>  <span id="token"></span>
+                </div>
+
+                <div class="item">
+                    <label for=""> Your user Id : </label>  <span id="userId"></span>
+                </div>
+               
+                <div>
+                    <button id="logoutBtn" type="submit" class="btn">LOGOUT</button>
+                </div> 
+            </form>
+        </div>
+
+        <div class="container">
+            <h2>Edit Password</h2>
+            <form class="signup">
+                <div class="edit-item">
+                    <input type="email" id="oldEmail" placeholder="Email" />
+                </div>
+                <div class="edit-item">
+                    <input type="password"  id="oldPassword" placeholder="Old Password"/>
+                </div>
+                <div class="edit-item"> 
+                    <input type="password" id="newPassword" placeholder="New Password"/>
+                </div>
+                <div class="edit-item">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" />
+                </div>
+                <div>
+                    <button id="edit-button" type="submit" class="btn">Edit Details</button>
+                </div> 
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

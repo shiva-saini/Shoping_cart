@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">MeShop</div>
+          <div class="right">
+            <div class="nav-item"><button id="home">Home</button></div>
+            <div class="nav-item"><button id="login">Login</button></div>
+            <div class="nav-item"><button id="signup">Signup</button></div>
+            <div class="nav-item"><button id="mycart">My Cart</button></div>
+            <div class="nav-item"><button id="profile">Profile</button></div>
+          </div>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <div class="container">
+            <h2>Login to your account</h2>
+            <form class="signup" action="">
+                <div>
+                    <label for="">Your Email</label>
+                </div>
+                <input type="email" id="email">
+                <div>
+                    <label for="">Password</label>
+                </div>
+                <input type="password" id="password">
+                <div>
+                    <button id="signinBtn" class="btn" type="submit">Login</button>
+                </div> 
+            </form>
+            <div id="error">
+                 Error will show here
+            </div>
+        </div>
+        <div class="logincheck">
+            <h2>Don't have account? <a href="">Signup</a></h2>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">MeShop</div>
+          <div class="right">
+            <div class="nav-item"><button id="home">Home</button></div>
+            <div class="nav-item"><button id="login">Login</button></div>
+            <div class="nav-item"><button id="signup">Signup</button></div>
+            <div class="nav-item"><button id="mycart">My Cart</button></div>
+            <div class="nav-item"><button id="profile">Profile</button></div>
+          </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h2>Signup to your account</h2>
+            <form class="signup" action="">
+              
+                <div>
+                    <label for="">First Name</label>
+                </div>
+                <input type="text" id="fname">
+
+                <div>
+                    <label for="">Last Name</label>
+                </div>
+                <input type="text" id="lname"/>
+                
+                <div>
+                    <label for="">Your Email</label>
+                </div>
+                <input type="email" id="email">
+                <div>
+                    <label for="">Password</label>
+                </div>
+                <input type="password" id="password">
+                <div>
+                    <label for="">Confirm Password</label>
+                </div>
+                <input type="password" id="confirm-password">
+                <div>
+                    <button id="signupBtn" class="btn" type="submit">Signup</button>
+                </div> 
+            </form>
+            <div id="error">
+                 Error will show here
+            </div>
+        </div>
+        <div class="logincheck">
+            <h2>already a user ? <a href="">login</a></h2>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuidv4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
